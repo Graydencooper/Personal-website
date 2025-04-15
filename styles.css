@@ -1,0 +1,69 @@
+table{
+    border: 4px white solid ;
+    border-radius: 20px;
+    font-size: smaller;
+}
+th{
+   border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+ td{
+    padding: 5px;
+    border: white 1px solid;
+    border-radius: 10px;
+ }
+hr {
+    height: 2px;
+    border-width: 0;
+    background-color:black;
+ }
+ header {
+    text-align: center;
+ }
+*{
+    background-color: grey;
+    color: white;
+ }
+main.resume {
+    display: flex;
+ }
+#aside{
+    flex: 1;
+    background-color: grey;
+}
+#content{
+    flex: 3;
+}
+#resume_headshot {
+    width: 90%;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 0;
+    margin:0 ;
+}
+a {
+    color: orange;
+}
+a:hover{
+    color: navy;
+}
+p mark {
+    background-color: orange;
+    color: white;
+}
+#career_main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+ul {
+    list-style-type:circle;
+}
+
+
+
+
+
